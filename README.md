@@ -447,3 +447,4 @@ custom_components/vehicle_manager/
 
 MIT — free to use, modify and distribute.  
 Contributions and pull requests welcome.
+ 
