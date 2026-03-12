@@ -1,0 +1,127 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fahrzeug hinzufügen",
+        "description": "Gib die grundlegenden Informationen zu deinem Fahrzeug ein.",
+        "data": {
+          "car_name": "Fahrzeugname",
+          "make": "Marke",
+          "model": "Modell",
+          "year": "Baujahr",
+          "plate": "Kennzeichen",
+          "country": "Land",
+          "language": "Kartensprache"
+        }
+      },
+      "documents": {
+        "title": "Ablaufdaten der Dokumente",
+        "description": "Ablaufdaten für Fahrzeugdokumente eingeben (leer lassen, falls nicht zutreffend).",
+        "data": {
+          "insurance_expiry": "KFZ-Haftpflicht Ablauf",
+          "casco_expiry": "Vollkasko Ablauf",
+          "inspection_expiry": "TÜV / HU Ablauf",
+          "road_tax_expiry": "KFZ-Steuer Ablauf",
+          "vignette_expiry": "Vignette Ablauf",
+          "fire_extinguisher_expiry": "Feuerlöscher Ablauf",
+          "first_aid_kit_expiry": "Verbandskasten Ablauf"
+        }
+      },
+      "service": {
+        "title": "Serviceverlauf",
+        "description": "Datum und Kilometerstand der letzten Wartungen eingeben.",
+        "data": {
+          "odometer": "Aktueller Kilometerstand (km)",
+          "oil_change_date": "Letzter Ölwechsel — Datum",
+          "oil_change_km": "Letzter Ölwechsel — km",
+          "oil_change_interval_km": "Ölwechsel-Intervall (km)",
+          "air_filter_date": "Luftfilter — Datum",
+          "air_filter_km": "Luftfilter — km",
+          "air_filter_interval_km": "Luftfilter-Intervall (km)",
+          "cabin_filter_date": "Innenraumfilter — Datum",
+          "cabin_filter_km": "Innenraumfilter — km",
+          "cabin_filter_interval_km": "Innenraumfilter-Intervall (km)",
+          "timing_belt_date": "Zahnriemen — Datum",
+          "timing_belt_km": "Zahnriemen — km",
+          "timing_belt_interval_km": "Zahnriemen-Intervall (km)",
+          "brakes_date": "Bremsenprüfung — Datum",
+          "brakes_km": "Bremsenprüfung — km",
+          "brakes_interval_km": "Bremsenprüfung-Intervall (km)",
+          "battery_date": "Batterie-Einbaudatum",
+          "tires_date": "Letzter Reifenwechsel",
+          "ac_service_date": "Klimaanlage-Service",
+          "general_service_date": "Inspektion — Datum",
+          "general_service_km": "Inspektion — km",
+          "general_service_interval_km": "Inspektions-Intervall (km)",
+          "notes": "Notizen"
+        }
+      }
+    },
+    "abort": { "already_configured": "Dieses Fahrzeug ist bereits konfiguriert." }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Dokumente aktualisieren",
+        "data": {
+          "insurance_expiry": "Haftpflicht Ablauf",
+          "casco_expiry": "Vollkasko Ablauf",
+          "inspection_expiry": "TÜV / HU Ablauf",
+          "road_tax_expiry": "KFZ-Steuer Ablauf",
+          "vignette_expiry": "Vignette Ablauf",
+          "fire_extinguisher_expiry": "Feuerlöscher Ablauf",
+          "first_aid_kit_expiry": "Verbandskasten Ablauf"
+        }
+      },
+      "service": {
+        "title": "Serviceverlauf aktualisieren",
+        "data": {
+          "odometer": "Aktueller Kilometerstand (km)",
+          "oil_change_date": "Letzter Ölwechsel — Datum",
+          "oil_change_km": "Letzter Ölwechsel — km",
+          "oil_change_interval_km": "Ölwechsel-Intervall (km)",
+          "air_filter_date": "Luftfilter — Datum",
+          "air_filter_km": "Luftfilter — km",
+          "air_filter_interval_km": "Luftfilter-Intervall (km)",
+          "cabin_filter_date": "Innenraumfilter — Datum",
+          "cabin_filter_km": "Innenraumfilter — km",
+          "cabin_filter_interval_km": "Innenraumfilter-Intervall (km)",
+          "timing_belt_date": "Zahnriemen — Datum",
+          "timing_belt_km": "Zahnriemen — km",
+          "timing_belt_interval_km": "Zahnriemen-Intervall (km)",
+          "brakes_date": "Bremsenprüfung — Datum",
+          "brakes_km": "Bremsenprüfung — km",
+          "brakes_interval_km": "Bremsenprüfung-Intervall (km)",
+          "battery_date": "Batterie-Einbaudatum",
+          "tires_date": "Letzter Reifenwechsel",
+          "ac_service_date": "Klimaanlage-Service",
+          "general_service_date": "Inspektion — Datum",
+          "general_service_km": "Inspektion — km",
+          "general_service_interval_km": "Inspektions-Intervall (km)",
+          "notes": "Notizen"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": { "name": "KFZ-Haftpflicht" },
+      "casco": { "name": "Vollkasko" },
+      "inspection": { "name": "TÜV / HU" },
+      "road_tax": { "name": "KFZ-Steuer" },
+      "vignette": { "name": "Vignette" },
+      "fire_extinguisher": { "name": "Feuerlöscher" },
+      "first_aid_kit": { "name": "Verbandskasten" },
+      "odometer": { "name": "Kilometerstand" },
+      "oil_change": { "name": "Ölwechsel" },
+      "air_filter": { "name": "Luftfilter" },
+      "cabin_filter": { "name": "Innenraumfilter" },
+      "timing_belt": { "name": "Zahnriemen" },
+      "brakes": { "name": "Bremsen" },
+      "battery": { "name": "Batterie" },
+      "tires": { "name": "Reifen" },
+      "ac_service": { "name": "Klimaanlage-Service" },
+      "general_service": { "name": "Inspektion" }
+    }
+  }
+}
