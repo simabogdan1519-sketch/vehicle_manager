@@ -1,0 +1,163 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jármű hozzáadása",
+        "description": "Adja meg járműve alapadatait.",
+        "data": {
+          "car_name": "Jármű neve",
+          "make": "Márka",
+          "model": "Modell",
+          "year": "Évjárat",
+          "plate": "Rendszám",
+          "country": "Ország",
+          "language": "Widget nyelve"
+        }
+      },
+      "documents": {
+        "title": "Dokumentumok lejárati dátumai",
+        "description": "Adja meg a jármű dokumentumainak lejárati dátumait.",
+        "data": {
+          "insurance_expiry": "Kötelező biztosítás lejárata",
+          "casco_expiry": "CASCO lejárata",
+          "inspection_expiry": "Műszaki vizsga lejárata",
+          "road_tax_expiry": "Gépjárműadó lejárata",
+          "vignette_expiry": "Autópálya-matrica lejárata",
+          "fire_extinguisher_expiry": "Tűzoltó készülék lejárata",
+          "first_aid_kit_expiry": "Elsősegély-csomag lejárata"
+        }
+      },
+      "service": {
+        "title": "Szerviz előzmények",
+        "description": "Adja meg az utolsó szervizek dátumát és kilométerállását.",
+        "data": {
+          "odometer": "Jelenlegi kilométerállás (km)",
+          "oil_change_date": "Utolsó olajcsere — Dátum",
+          "oil_change_km": "Utolsó olajcsere — Km",
+          "oil_change_interval_km": "Olajcsere intervallum (km)",
+          "air_filter_date": "Légszűrő — Dátum",
+          "air_filter_km": "Légszűrő — Km",
+          "air_filter_interval_km": "Légszűrő intervallum (km)",
+          "cabin_filter_date": "Pollenszűrő — Dátum",
+          "cabin_filter_km": "Pollenszűrő — Km",
+          "cabin_filter_interval_km": "Pollenszűrő intervallum (km)",
+          "timing_belt_date": "Vezérműszíj — Dátum",
+          "timing_belt_km": "Vezérműszíj — Km",
+          "timing_belt_interval_km": "Vezérműszíj intervallum (km)",
+          "brakes_date": "Fék-ellenőrzés — Dátum",
+          "brakes_km": "Fék-ellenőrzés — Km",
+          "brakes_interval_km": "Fék intervallum (km)",
+          "battery_date": "Akkumulátor beszerelése",
+          "tires_date": "Utolsó gumiabroncs-csere",
+          "ac_service_date": "Légkondicionáló-szerviz",
+          "general_service_date": "Általános szerviz — Dátum",
+          "general_service_km": "Általános szerviz — Km",
+          "general_service_interval_km": "Általános szerviz intervallum (km)",
+          "notes": "Megjegyzések"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ez a jármű már konfigurálva van."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Dokumentumok frissítése",
+        "data": {
+          "insurance_expiry": "Kötelező biz. lejárata",
+          "casco_expiry": "CASCO lejárata",
+          "inspection_expiry": "Műszaki vizsga",
+          "road_tax_expiry": "Gépjárműadó",
+          "vignette_expiry": "Autópálya-matrica",
+          "fire_extinguisher_expiry": "Tűzoltó készülék",
+          "first_aid_kit_expiry": "Elsősegély-csomag"
+        }
+      },
+      "service": {
+        "title": "Szerviz frissítése",
+        "data": {
+          "odometer": "Kilométerállás (km)",
+          "oil_change_date": "Olajcsere — Dátum",
+          "oil_change_km": "Olajcsere — Km",
+          "oil_change_interval_km": "Olajcsere int. (km)",
+          "air_filter_date": "Légszűrő — Dátum",
+          "air_filter_km": "Légszűrő — Km",
+          "air_filter_interval_km": "Légszűrő int. (km)",
+          "cabin_filter_date": "Pollenszűrő — Dátum",
+          "cabin_filter_km": "Pollenszűrő — Km",
+          "cabin_filter_interval_km": "Pollenszűrő int. (km)",
+          "timing_belt_date": "Vezérműszíj — Dátum",
+          "timing_belt_km": "Vezérműszíj — Km",
+          "timing_belt_interval_km": "Vezérműszíj int. (km)",
+          "brakes_date": "Fék — Dátum",
+          "brakes_km": "Fék — Km",
+          "brakes_interval_km": "Fék int. (km)",
+          "battery_date": "Akkumulátor dátuma",
+          "tires_date": "Gumiabroncs-csere",
+          "ac_service_date": "Légkondicionáló szerviz",
+          "general_service_date": "Szerviz — Dátum",
+          "general_service_km": "Szerviz — Km",
+          "general_service_interval_km": "Szerviz int. (km)",
+          "notes": "Megjegyzések"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": {
+        "name": "Kötelező biztosítás"
+      },
+      "casco": {
+        "name": "CASCO"
+      },
+      "inspection": {
+        "name": "Műszaki vizsga"
+      },
+      "road_tax": {
+        "name": "Gépjárműadó"
+      },
+      "vignette": {
+        "name": "Autópálya-matrica"
+      },
+      "fire_extinguisher": {
+        "name": "Tűzoltó készülék"
+      },
+      "first_aid_kit": {
+        "name": "Elsősegély-csomag"
+      },
+      "odometer": {
+        "name": "Kilométerállás"
+      },
+      "oil_change": {
+        "name": "Olajcsere"
+      },
+      "air_filter": {
+        "name": "Légszűrő"
+      },
+      "cabin_filter": {
+        "name": "Pollenszűrő"
+      },
+      "timing_belt": {
+        "name": "Vezérműszíj"
+      },
+      "brakes": {
+        "name": "Fékek"
+      },
+      "battery": {
+        "name": "Akkumulátor"
+      },
+      "tires": {
+        "name": "Gumiabroncsok"
+      },
+      "ac_service": {
+        "name": "Légkondicionáló szerviz"
+      },
+      "general_service": {
+        "name": "Általános szerviz"
+      }
+    }
+  }
+}

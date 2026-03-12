@@ -1,0 +1,163 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aggiungi veicolo",
+        "description": "Inserisci le informazioni di base del tuo veicolo.",
+        "data": {
+          "car_name": "Nome veicolo",
+          "make": "Marca",
+          "model": "Modello",
+          "year": "Anno",
+          "plate": "Targa",
+          "country": "Paese",
+          "language": "Lingua del widget"
+        }
+      },
+      "documents": {
+        "title": "Date di scadenza documenti",
+        "description": "Inserisci le date di scadenza dei documenti (lascia vuoto se non applicabile).",
+        "data": {
+          "insurance_expiry": "Scadenza RCA",
+          "casco_expiry": "Scadenza Kasko",
+          "inspection_expiry": "Scadenza Revisione",
+          "road_tax_expiry": "Scadenza Bollo auto",
+          "vignette_expiry": "Scadenza vignetta",
+          "fire_extinguisher_expiry": "Scadenza estintore",
+          "first_aid_kit_expiry": "Scadenza kit pronto soccorso"
+        }
+      },
+      "service": {
+        "title": "Storico manutenzione",
+        "description": "Inserisci le date e i km degli ultimi interventi.",
+        "data": {
+          "odometer": "Chilometraggio attuale (km)",
+          "oil_change_date": "Ultimo cambio olio — Data",
+          "oil_change_km": "Ultimo cambio olio — Km",
+          "oil_change_interval_km": "Intervallo cambio olio (km)",
+          "air_filter_date": "Filtro aria — Data",
+          "air_filter_km": "Filtro aria — Km",
+          "air_filter_interval_km": "Intervallo filtro aria (km)",
+          "cabin_filter_date": "Filtro abitacolo — Data",
+          "cabin_filter_km": "Filtro abitacolo — Km",
+          "cabin_filter_interval_km": "Intervallo filtro abitacolo (km)",
+          "timing_belt_date": "Cinghia distribuzione — Data",
+          "timing_belt_km": "Cinghia distribuzione — Km",
+          "timing_belt_interval_km": "Intervallo cinghia (km)",
+          "brakes_date": "Controllo freni — Data",
+          "brakes_km": "Controllo freni — Km",
+          "brakes_interval_km": "Intervallo freni (km)",
+          "battery_date": "Data installazione batteria",
+          "tires_date": "Ultimo cambio gomme",
+          "ac_service_date": "Service climatizzatore",
+          "general_service_date": "Tagliando — Data",
+          "general_service_km": "Tagliando — Km",
+          "general_service_interval_km": "Intervallo tagliando (km)",
+          "notes": "Note"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Questo veicolo è già configurato."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Aggiorna documenti",
+        "data": {
+          "insurance_expiry": "Scadenza RCA",
+          "casco_expiry": "Scadenza Kasko",
+          "inspection_expiry": "Scadenza Revisione",
+          "road_tax_expiry": "Scadenza Bollo",
+          "vignette_expiry": "Scadenza vignetta",
+          "fire_extinguisher_expiry": "Scadenza estintore",
+          "first_aid_kit_expiry": "Scadenza kit pronto soccorso"
+        }
+      },
+      "service": {
+        "title": "Aggiorna manutenzione",
+        "data": {
+          "odometer": "Chilometraggio attuale (km)",
+          "oil_change_date": "Cambio olio — Data",
+          "oil_change_km": "Cambio olio — Km",
+          "oil_change_interval_km": "Intervallo cambio olio (km)",
+          "air_filter_date": "Filtro aria — Data",
+          "air_filter_km": "Filtro aria — Km",
+          "air_filter_interval_km": "Intervallo filtro aria (km)",
+          "cabin_filter_date": "Filtro abitacolo — Data",
+          "cabin_filter_km": "Filtro abitacolo — Km",
+          "cabin_filter_interval_km": "Intervallo filtro abitacolo (km)",
+          "timing_belt_date": "Cinghia — Data",
+          "timing_belt_km": "Cinghia — Km",
+          "timing_belt_interval_km": "Intervallo cinghia (km)",
+          "brakes_date": "Freni — Data",
+          "brakes_km": "Freni — Km",
+          "brakes_interval_km": "Intervallo freni (km)",
+          "battery_date": "Data batteria",
+          "tires_date": "Cambio gomme",
+          "ac_service_date": "Service clima",
+          "general_service_date": "Tagliando — Data",
+          "general_service_km": "Tagliando — Km",
+          "general_service_interval_km": "Intervallo tagliando (km)",
+          "notes": "Note"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": {
+        "name": "RCA"
+      },
+      "casco": {
+        "name": "Kasko"
+      },
+      "inspection": {
+        "name": "Revisione"
+      },
+      "road_tax": {
+        "name": "Bollo auto"
+      },
+      "vignette": {
+        "name": "Vignetta"
+      },
+      "fire_extinguisher": {
+        "name": "Estintore"
+      },
+      "first_aid_kit": {
+        "name": "Kit pronto soccorso"
+      },
+      "odometer": {
+        "name": "Chilometraggio"
+      },
+      "oil_change": {
+        "name": "Cambio olio"
+      },
+      "air_filter": {
+        "name": "Filtro aria"
+      },
+      "cabin_filter": {
+        "name": "Filtro abitacolo"
+      },
+      "timing_belt": {
+        "name": "Cinghia distribuzione"
+      },
+      "brakes": {
+        "name": "Freni"
+      },
+      "battery": {
+        "name": "Batteria"
+      },
+      "tires": {
+        "name": "Gomme"
+      },
+      "ac_service": {
+        "name": "Service clima"
+      },
+      "general_service": {
+        "name": "Tagliando"
+      }
+    }
+  }
+}

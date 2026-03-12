@@ -1,0 +1,129 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Adaugă vehicul",
+        "description": "Introdu informațiile de bază despre vehiculul tău.",
+        "data": {
+          "car_name": "Numele vehiculului",
+          "make": "Marcă",
+          "model": "Model",
+          "year": "An fabricație",
+          "plate": "Număr înmatriculare",
+          "country": "Țară",
+          "language": "Limba cardului"
+        }
+      },
+      "documents": {
+        "title": "Date expirare documente",
+        "description": "Introdu datele de expirare ale documentelor (lasă gol dacă nu se aplică).",
+        "data": {
+          "insurance_expiry": "Expirare RCA",
+          "casco_expiry": "Expirare CASCO",
+          "inspection_expiry": "Expirare ITP",
+          "road_tax_expiry": "Expirare impozit auto",
+          "vignette_expiry": "Expirare rovinieta",
+          "fire_extinguisher_expiry": "Expirare extinctor",
+          "first_aid_kit_expiry": "Expirare trusă medicală"
+        }
+      },
+      "service": {
+        "title": "Istoric service",
+        "description": "Introdu datele și km ultimelor intervenții service.",
+        "data": {
+          "odometer": "Kilometraj actual (km)",
+          "oil_change_date": "Ultimul schimb ulei — Dată",
+          "oil_change_km": "Ultimul schimb ulei — Km",
+          "oil_change_interval_km": "Interval schimb ulei (km)",
+          "air_filter_date": "Filtru aer — Dată",
+          "air_filter_km": "Filtru aer — Km",
+          "air_filter_interval_km": "Interval filtru aer (km)",
+          "cabin_filter_date": "Filtru habitaclu — Dată",
+          "cabin_filter_km": "Filtru habitaclu — Km",
+          "cabin_filter_interval_km": "Interval filtru habitaclu (km)",
+          "timing_belt_date": "Curea distribuție — Dată",
+          "timing_belt_km": "Curea distribuție — Km",
+          "timing_belt_interval_km": "Interval curea distribuție (km)",
+          "brakes_date": "Verificare frâne — Dată",
+          "brakes_km": "Verificare frâne — Km",
+          "brakes_interval_km": "Interval verificare frâne (km)",
+          "battery_date": "Data montare baterie",
+          "tires_date": "Data ultimei schimbări anvelope",
+          "ac_service_date": "Data service climatizare",
+          "general_service_date": "Revizie generală — Dată",
+          "general_service_km": "Revizie generală — Km",
+          "general_service_interval_km": "Interval revizie generală (km)",
+          "notes": "Notițe"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Acest vehicul este deja configurat."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Actualizează documente",
+        "data": {
+          "insurance_expiry": "Expirare RCA",
+          "casco_expiry": "Expirare CASCO",
+          "inspection_expiry": "Expirare ITP",
+          "road_tax_expiry": "Expirare impozit auto",
+          "vignette_expiry": "Expirare rovinieta",
+          "fire_extinguisher_expiry": "Expirare extinctor",
+          "first_aid_kit_expiry": "Expirare trusă medicală"
+        }
+      },
+      "service": {
+        "title": "Actualizează service",
+        "data": {
+          "odometer": "Kilometraj actual (km)",
+          "oil_change_date": "Ultimul schimb ulei — Dată",
+          "oil_change_km": "Ultimul schimb ulei — Km",
+          "oil_change_interval_km": "Interval schimb ulei (km)",
+          "air_filter_date": "Filtru aer — Dată",
+          "air_filter_km": "Filtru aer — Km",
+          "air_filter_interval_km": "Interval filtru aer (km)",
+          "cabin_filter_date": "Filtru habitaclu — Dată",
+          "cabin_filter_km": "Filtru habitaclu — Km",
+          "cabin_filter_interval_km": "Interval filtru habitaclu (km)",
+          "timing_belt_date": "Curea distribuție — Dată",
+          "timing_belt_km": "Curea distribuție — Km",
+          "timing_belt_interval_km": "Interval curea distribuție (km)",
+          "brakes_date": "Verificare frâne — Dată",
+          "brakes_km": "Verificare frâne — Km",
+          "brakes_interval_km": "Interval verificare frâne (km)",
+          "battery_date": "Data montare baterie",
+          "tires_date": "Data ultimei schimbări anvelope",
+          "ac_service_date": "Data service climatizare",
+          "general_service_date": "Revizie generală — Dată",
+          "general_service_km": "Revizie generală — Km",
+          "general_service_interval_km": "Interval revizie generală (km)",
+          "notes": "Notițe"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": { "name": "Asigurare" },
+      "casco": { "name": "CASCO" },
+      "inspection": { "name": "Inspecție tehnică" },
+      "road_tax": { "name": "Impozit auto" },
+      "vignette": { "name": "Rovinieta" },
+      "fire_extinguisher": { "name": "Extinctor" },
+      "first_aid_kit": { "name": "Trusă medicală" },
+      "odometer": { "name": "Kilometraj" },
+      "oil_change": { "name": "Schimb ulei" },
+      "air_filter": { "name": "Filtru aer" },
+      "cabin_filter": { "name": "Filtru habitaclu" },
+      "timing_belt": { "name": "Curea distribuție" },
+      "brakes": { "name": "Frâne" },
+      "battery": { "name": "Baterie" },
+      "tires": { "name": "Anvelope" },
+      "ac_service": { "name": "Service climatizare" },
+      "general_service": { "name": "Revizie generală" }
+    }
+  }
+}

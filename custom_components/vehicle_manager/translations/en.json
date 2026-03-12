@@ -1,0 +1,129 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Vehicle",
+        "description": "Enter the basic information about your vehicle.",
+        "data": {
+          "car_name": "Vehicle Name",
+          "make": "Make (Brand)",
+          "model": "Model",
+          "year": "Year",
+          "plate": "License Plate",
+          "country": "Country",
+          "language": "Card Language"
+        }
+      },
+      "documents": {
+        "title": "Document Expiry Dates",
+        "description": "Enter the expiry dates for your vehicle documents (leave blank if not applicable).",
+        "data": {
+          "insurance_expiry": "Mandatory Insurance (RCA/RC) Expiry",
+          "casco_expiry": "Comprehensive Insurance (CASCO) Expiry",
+          "inspection_expiry": "Technical Inspection (ITP/TÜV/CT…) Expiry",
+          "road_tax_expiry": "Road Tax Expiry",
+          "vignette_expiry": "Vignette / Rovinieta Expiry",
+          "fire_extinguisher_expiry": "Fire Extinguisher Expiry",
+          "first_aid_kit_expiry": "First Aid Kit Expiry"
+        }
+      },
+      "service": {
+        "title": "Service History",
+        "description": "Enter the last service dates and odometer readings. Intervals are used to calculate km remaining.",
+        "data": {
+          "odometer": "Current Odometer (km)",
+          "oil_change_date": "Last Oil Change — Date",
+          "oil_change_km": "Last Oil Change — Km",
+          "oil_change_interval_km": "Oil Change Interval (km)",
+          "air_filter_date": "Last Air Filter — Date",
+          "air_filter_km": "Last Air Filter — Km",
+          "air_filter_interval_km": "Air Filter Interval (km)",
+          "cabin_filter_date": "Last Cabin Filter — Date",
+          "cabin_filter_km": "Last Cabin Filter — Km",
+          "cabin_filter_interval_km": "Cabin Filter Interval (km)",
+          "timing_belt_date": "Last Timing Belt — Date",
+          "timing_belt_km": "Last Timing Belt — Km",
+          "timing_belt_interval_km": "Timing Belt Interval (km)",
+          "brakes_date": "Last Brake Check — Date",
+          "brakes_km": "Last Brake Check — Km",
+          "brakes_interval_km": "Brake Check Interval (km)",
+          "battery_date": "Battery Installed Date",
+          "tires_date": "Last Tire Swap Date",
+          "ac_service_date": "Last A/C Service Date",
+          "general_service_date": "Last General Service — Date",
+          "general_service_km": "Last General Service — Km",
+          "general_service_interval_km": "General Service Interval (km)",
+          "notes": "Notes"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This vehicle is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Update Document Expiry Dates",
+        "data": {
+          "insurance_expiry": "Mandatory Insurance Expiry",
+          "casco_expiry": "CASCO Expiry",
+          "inspection_expiry": "Technical Inspection Expiry",
+          "road_tax_expiry": "Road Tax Expiry",
+          "vignette_expiry": "Vignette Expiry",
+          "fire_extinguisher_expiry": "Fire Extinguisher Expiry",
+          "first_aid_kit_expiry": "First Aid Kit Expiry"
+        }
+      },
+      "service": {
+        "title": "Update Service History",
+        "data": {
+          "odometer": "Current Odometer (km)",
+          "oil_change_date": "Last Oil Change — Date",
+          "oil_change_km": "Last Oil Change — Km",
+          "oil_change_interval_km": "Oil Change Interval (km)",
+          "air_filter_date": "Last Air Filter — Date",
+          "air_filter_km": "Last Air Filter — Km",
+          "air_filter_interval_km": "Air Filter Interval (km)",
+          "cabin_filter_date": "Last Cabin Filter — Date",
+          "cabin_filter_km": "Last Cabin Filter — Km",
+          "cabin_filter_interval_km": "Cabin Filter Interval (km)",
+          "timing_belt_date": "Last Timing Belt — Date",
+          "timing_belt_km": "Last Timing Belt — Km",
+          "timing_belt_interval_km": "Timing Belt Interval (km)",
+          "brakes_date": "Last Brake Check — Date",
+          "brakes_km": "Last Brake Check — Km",
+          "brakes_interval_km": "Brake Check Interval (km)",
+          "battery_date": "Battery Installed Date",
+          "tires_date": "Last Tire Swap Date",
+          "ac_service_date": "Last A/C Service Date",
+          "general_service_date": "Last General Service — Date",
+          "general_service_km": "Last General Service — Km",
+          "general_service_interval_km": "General Service Interval (km)",
+          "notes": "Notes"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": { "name": "Insurance" },
+      "casco": { "name": "CASCO" },
+      "inspection": { "name": "Technical Inspection" },
+      "road_tax": { "name": "Road Tax" },
+      "vignette": { "name": "Vignette" },
+      "fire_extinguisher": { "name": "Fire Extinguisher" },
+      "first_aid_kit": { "name": "First Aid Kit" },
+      "odometer": { "name": "Odometer" },
+      "oil_change": { "name": "Oil Change" },
+      "air_filter": { "name": "Air Filter" },
+      "cabin_filter": { "name": "Cabin Filter" },
+      "timing_belt": { "name": "Timing Belt" },
+      "brakes": { "name": "Brakes" },
+      "battery": { "name": "Battery" },
+      "tires": { "name": "Tires" },
+      "ac_service": { "name": "A/C Service" },
+      "general_service": { "name": "General Service" }
+    }
+  }
+}

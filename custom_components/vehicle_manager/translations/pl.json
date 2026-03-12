@@ -1,0 +1,163 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dodaj pojazd",
+        "description": "Wprowadź podstawowe informacje o swoim pojeździe.",
+        "data": {
+          "car_name": "Nazwa pojazdu",
+          "make": "Marka",
+          "model": "Model",
+          "year": "Rok",
+          "plate": "Numer rejestracyjny",
+          "country": "Kraj",
+          "language": "Język widżetu"
+        }
+      },
+      "documents": {
+        "title": "Daty ważności dokumentów",
+        "description": "Wprowadź daty ważności dokumentów pojazdu.",
+        "data": {
+          "insurance_expiry": "Ważność OC",
+          "casco_expiry": "Ważność AC (Autocasco)",
+          "inspection_expiry": "Ważność przeglądu technicznego",
+          "road_tax_expiry": "Ważność podatku drogowego",
+          "vignette_expiry": "Ważność e-TOLL / viaTOLL",
+          "fire_extinguisher_expiry": "Ważność gaśnicy",
+          "first_aid_kit_expiry": "Ważność apteczki"
+        }
+      },
+      "service": {
+        "title": "Historia serwisu",
+        "description": "Wprowadź daty i przebiegi ostatnich przeglądów.",
+        "data": {
+          "odometer": "Aktualny przebieg (km)",
+          "oil_change_date": "Ostatnia wymiana oleju — Data",
+          "oil_change_km": "Ostatnia wymiana oleju — Km",
+          "oil_change_interval_km": "Interwał wymiany oleju (km)",
+          "air_filter_date": "Filtr powietrza — Data",
+          "air_filter_km": "Filtr powietrza — Km",
+          "air_filter_interval_km": "Interwał filtra powietrza (km)",
+          "cabin_filter_date": "Filtr kabinowy — Data",
+          "cabin_filter_km": "Filtr kabinowy — Km",
+          "cabin_filter_interval_km": "Interwał filtra kabinowego (km)",
+          "timing_belt_date": "Pasek rozrządu — Data",
+          "timing_belt_km": "Pasek rozrządu — Km",
+          "timing_belt_interval_km": "Interwał paska (km)",
+          "brakes_date": "Kontrola hamulców — Data",
+          "brakes_km": "Kontrola hamulców — Km",
+          "brakes_interval_km": "Interwał hamulców (km)",
+          "battery_date": "Data montażu akumulatora",
+          "tires_date": "Ostatnia wymiana opon",
+          "ac_service_date": "Serwis klimatyzacji",
+          "general_service_date": "Przegląd ogólny — Data",
+          "general_service_km": "Przegląd ogólny — Km",
+          "general_service_interval_km": "Interwał przeglądu (km)",
+          "notes": "Notatki"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ten pojazd jest już skonfigurowany."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Aktualizuj dokumenty",
+        "data": {
+          "insurance_expiry": "Ważność OC",
+          "casco_expiry": "Ważność AC",
+          "inspection_expiry": "Ważność przeglądu",
+          "road_tax_expiry": "Ważność podatku drogowego",
+          "vignette_expiry": "Ważność e-TOLL",
+          "fire_extinguisher_expiry": "Ważność gaśnicy",
+          "first_aid_kit_expiry": "Ważność apteczki"
+        }
+      },
+      "service": {
+        "title": "Aktualizuj serwis",
+        "data": {
+          "odometer": "Aktualny przebieg (km)",
+          "oil_change_date": "Olej — Data",
+          "oil_change_km": "Olej — Km",
+          "oil_change_interval_km": "Interwał oleju (km)",
+          "air_filter_date": "Filtr powietrza — Data",
+          "air_filter_km": "Filtr powietrza — Km",
+          "air_filter_interval_km": "Interwał filtra (km)",
+          "cabin_filter_date": "Filtr kabinowy — Data",
+          "cabin_filter_km": "Filtr kabinowy — Km",
+          "cabin_filter_interval_km": "Interwał filtra kab. (km)",
+          "timing_belt_date": "Pasek — Data",
+          "timing_belt_km": "Pasek — Km",
+          "timing_belt_interval_km": "Interwał paska (km)",
+          "brakes_date": "Hamulce — Data",
+          "brakes_km": "Hamulce — Km",
+          "brakes_interval_km": "Interwał hamulców (km)",
+          "battery_date": "Data akumulatora",
+          "tires_date": "Wymiana opon",
+          "ac_service_date": "Serwis klimy",
+          "general_service_date": "Przegląd — Data",
+          "general_service_km": "Przegląd — Km",
+          "general_service_interval_km": "Interwał przeglądu (km)",
+          "notes": "Notatki"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": {
+        "name": "OC"
+      },
+      "casco": {
+        "name": "AC (Autocasco)"
+      },
+      "inspection": {
+        "name": "Przegląd techniczny"
+      },
+      "road_tax": {
+        "name": "Podatek drogowy"
+      },
+      "vignette": {
+        "name": "e-TOLL"
+      },
+      "fire_extinguisher": {
+        "name": "Gaśnica"
+      },
+      "first_aid_kit": {
+        "name": "Apteczka"
+      },
+      "odometer": {
+        "name": "Przebieg"
+      },
+      "oil_change": {
+        "name": "Wymiana oleju"
+      },
+      "air_filter": {
+        "name": "Filtr powietrza"
+      },
+      "cabin_filter": {
+        "name": "Filtr kabinowy"
+      },
+      "timing_belt": {
+        "name": "Pasek rozrządu"
+      },
+      "brakes": {
+        "name": "Hamulce"
+      },
+      "battery": {
+        "name": "Akumulator"
+      },
+      "tires": {
+        "name": "Opony"
+      },
+      "ac_service": {
+        "name": "Serwis klimatyzacji"
+      },
+      "general_service": {
+        "name": "Przegląd ogólny"
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Añadir vehículo",
+        "description": "Introduce la información básica de tu vehículo.",
+        "data": {
+          "car_name": "Nombre del vehículo",
+          "make": "Marca",
+          "model": "Modelo",
+          "year": "Año",
+          "plate": "Matrícula",
+          "country": "País",
+          "language": "Idioma del widget"
+        }
+      },
+      "documents": {
+        "title": "Fechas de vencimiento",
+        "description": "Introduce las fechas de vencimiento de los documentos.",
+        "data": {
+          "insurance_expiry": "Vencimiento seguro obligatorio",
+          "casco_expiry": "Vencimiento seguro todo riesgo",
+          "inspection_expiry": "Vencimiento ITV",
+          "road_tax_expiry": "Vencimiento IVTM",
+          "vignette_expiry": "Vencimiento vignette",
+          "fire_extinguisher_expiry": "Vencimiento extintor",
+          "first_aid_kit_expiry": "Vencimiento botiquín"
+        }
+      },
+      "service": {
+        "title": "Historial de mantenimiento",
+        "description": "Introduce las fechas y km de los últimos servicios.",
+        "data": {
+          "odometer": "Kilometraje actual (km)",
+          "oil_change_date": "Último cambio de aceite — Fecha",
+          "oil_change_km": "Último cambio de aceite — Km",
+          "oil_change_interval_km": "Intervalo cambio aceite (km)",
+          "air_filter_date": "Filtro de aire — Fecha",
+          "air_filter_km": "Filtro de aire — Km",
+          "air_filter_interval_km": "Intervalo filtro aire (km)",
+          "cabin_filter_date": "Filtro habitáculo — Fecha",
+          "cabin_filter_km": "Filtro habitáculo — Km",
+          "cabin_filter_interval_km": "Intervalo filtro habitáculo (km)",
+          "timing_belt_date": "Correa de distribución — Fecha",
+          "timing_belt_km": "Correa de distribución — Km",
+          "timing_belt_interval_km": "Intervalo correa (km)",
+          "brakes_date": "Revisión frenos — Fecha",
+          "brakes_km": "Revisión frenos — Km",
+          "brakes_interval_km": "Intervalo frenos (km)",
+          "battery_date": "Fecha instalación batería",
+          "tires_date": "Último cambio neumáticos",
+          "ac_service_date": "Service aire acondicionado",
+          "general_service_date": "Revisión general — Fecha",
+          "general_service_km": "Revisión general — Km",
+          "general_service_interval_km": "Intervalo revisión (km)",
+          "notes": "Notas"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Este vehículo ya está configurado."
+    }
+  },
+  "options": {
+    "step": {
+      "documents": {
+        "title": "Actualizar documentos",
+        "data": {
+          "insurance_expiry": "Vencimiento seguro",
+          "casco_expiry": "Vencimiento todo riesgo",
+          "inspection_expiry": "Vencimiento ITV",
+          "road_tax_expiry": "Vencimiento IVTM",
+          "vignette_expiry": "Vencimiento vignette",
+          "fire_extinguisher_expiry": "Vencimiento extintor",
+          "first_aid_kit_expiry": "Vencimiento botiquín"
+        }
+      },
+      "service": {
+        "title": "Actualizar mantenimiento",
+        "data": {
+          "odometer": "Kilometraje actual (km)",
+          "oil_change_date": "Cambio aceite — Fecha",
+          "oil_change_km": "Cambio aceite — Km",
+          "oil_change_interval_km": "Intervalo aceite (km)",
+          "air_filter_date": "Filtro aire — Fecha",
+          "air_filter_km": "Filtro aire — Km",
+          "air_filter_interval_km": "Intervalo filtro aire (km)",
+          "cabin_filter_date": "Filtro hab. — Fecha",
+          "cabin_filter_km": "Filtro hab. — Km",
+          "cabin_filter_interval_km": "Intervalo filtro hab. (km)",
+          "timing_belt_date": "Correa — Fecha",
+          "timing_belt_km": "Correa — Km",
+          "timing_belt_interval_km": "Intervalo correa (km)",
+          "brakes_date": "Frenos — Fecha",
+          "brakes_km": "Frenos — Km",
+          "brakes_interval_km": "Intervalo frenos (km)",
+          "battery_date": "Fecha batería",
+          "tires_date": "Cambio neumáticos",
+          "ac_service_date": "Service A/C",
+          "general_service_date": "Revisión — Fecha",
+          "general_service_km": "Revisión — Km",
+          "general_service_interval_km": "Intervalo revisión (km)",
+          "notes": "Notas"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "insurance": {
+        "name": "Seguro obligatorio"
+      },
+      "casco": {
+        "name": "Todo riesgo"
+      },
+      "inspection": {
+        "name": "ITV"
+      },
+      "road_tax": {
+        "name": "IVTM"
+      },
+      "vignette": {
+        "name": "Vignette"
+      },
+      "fire_extinguisher": {
+        "name": "Extintor"
+      },
+      "first_aid_kit": {
+        "name": "Botiquín"
+      },
+      "odometer": {
+        "name": "Kilometraje"
+      },
+      "oil_change": {
+        "name": "Cambio de aceite"
+      },
+      "air_filter": {
+        "name": "Filtro de aire"
+      },
+      "cabin_filter": {
+        "name": "Filtro habitáculo"
+      },
+      "timing_belt": {
+        "name": "Correa de distribución"
+      },
+      "brakes": {
+        "name": "Frenos"
+      },
+      "battery": {
+        "name": "Batería"
+      },
+      "tires": {
+        "name": "Neumáticos"
+      },
+      "ac_service": {
+        "name": "Service A/C"
+      },
+      "general_service": {
+        "name": "Revisión general"
+      }
+    }
+  }
+}
