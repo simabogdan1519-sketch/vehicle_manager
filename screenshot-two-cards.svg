@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="984" height="631" viewBox="0 0 984 631">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="984" height="631" fill="#0f172a"/>
+  <rect x="20" y="20" width="460" height="591" rx="16" fill="#1e293b" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<rect x="20" y="20" width="460" height="82" rx="0" fill="url(#hdrGrad)" />
+<rect x="20" y="20" width="460" height="16" rx="0" fill="#1e293b"/>
+<rect x="20" y="20" width="460" height="82" rx="16" fill="none"/>
+<path d="M36,20 H464 Q480,20 480,36 V102 H20 V36 Q20,20 36,20" fill="#1e293b" opacity="0"/>
+<text x="38" y="54" font-size="26" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🚗</text>
+<text x="72" y="50" font-size="14" font-weight="700" fill="#f1f5f9" font-family="-apple-system,sans-serif">Dacia Logan</text>
+<text x="72" y="66" font-size="10" fill="#94a3b8" font-family="-apple-system,sans-serif">Dacia Logan 2019 · B-123-ABC · 🇷🇴</text>
+<text x="38" y="88" font-size="10" fill="#94a3b8" font-family="-apple-system,sans-serif">📍 127 450 km</text>
+<rect x="374.5" y="36" width="89.5" height="18" rx="9" fill="rgba(245,158,11,0.18)"/>
+<text x="419.25" y="49" font-size="9.5" font-weight="700" fill="#fbbf24" text-anchor="middle" font-family="-apple-system,sans-serif">⏰ 2 atenții</text>
+<rect x="274.5" y="36" width="96.0" height="18" rx="9" fill="rgba(239,68,68,0.18)"/>
+<text x="322.5" y="49" font-size="9.5" font-weight="700" fill="#f87171" text-anchor="middle" font-family="-apple-system,sans-serif">⚠ 3 probleme</text>
+<text x="470" y="33" font-size="8.5" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">🇷🇴 RO</text>
+<line x1="20" y1="102" x2="480" y2="102" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="34" y="124" font-size="9" font-weight="700" letter-spacing="1" fill="#64748b" font-family="-apple-system,sans-serif" text-transform="uppercase">📄 DOCUMENTE</text>
+<text x="466" y="124" font-size="10" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">▶</text>
+<rect x="34" y="137" width="102" height="64" rx="8" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="0"/>
+<rect x="34" y="137" width="3" height="64" rx="2" fill="#f59e0b" opacity="0.8"/>
+<text x="42" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🛡️</text>
+<circle cx="129" cy="148" r="4" fill="#f59e0b"/>
+<text x="56" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">RCA</text>
+<text x="42" y="171" font-size="11" font-weight="700" fill="#f59e0b" font-family="-apple-system,sans-serif">18 zile</text>
+<text x="42" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">15 Apr 2025</text>
+<rect x="144" y="137" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="144" y="137" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="152" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔒</text>
+<circle cx="239" cy="148" r="4" fill="#22c55e"/>
+<text x="166" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">CASCO</text>
+<text x="152" y="171" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">142 zile</text>
+<text x="152" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">01 Sep 2025</text>
+<rect x="254" y="137" width="102" height="64" rx="8" fill="rgba(239,68,68,0.14)" stroke="#ef4444" stroke-width="0"/>
+<rect x="254" y="137" width="3" height="64" rx="2" fill="#ef4444" opacity="0.8"/>
+<text x="262" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔍</text>
+<circle cx="349" cy="148" r="4" fill="#ef4444"/>
+<text x="276" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">ITP</text>
+<text x="262" y="171" font-size="11" font-weight="700" fill="#ef4444" font-family="-apple-system,sans-serif">3 zile</text>
+<text x="262" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">15 Mar 2025</text>
+<rect x="364" y="137" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="364" y="137" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="372" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🏛️</text>
+<circle cx="459" cy="148" r="4" fill="#22c55e"/>
+<text x="386" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Impozit auto</text>
+<text x="372" y="171" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">287 zile</text>
+<text x="372" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">31 Dec 2025</text>
+<rect x="34" y="209" width="102" height="64" rx="8" fill="rgba(220,38,38,0.16)" stroke="#dc2626" stroke-width="0"/>
+<rect x="34" y="209" width="3" height="64" rx="2" fill="#dc2626" opacity="0.8"/>
+<text x="42" y="225" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🛣️</text>
+<circle cx="129" cy="220" r="4" fill="#dc2626"/>
+<text x="56" y="225" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Rovinieta</text>
+<text x="42" y="243" font-size="11" font-weight="700" fill="#dc2626" font-family="-apple-system,sans-serif">Expirat</text>
+<text x="42" y="259" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">07 Mar 2025</text>
+<rect x="144" y="209" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="144" y="209" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="152" y="225" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🧯</text>
+<circle cx="239" cy="220" r="4" fill="#22c55e"/>
+<text x="166" y="225" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Extinctor</text>
+<text x="152" y="243" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">89 zile</text>
+<text x="152" y="259" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">09 Jun 2025</text>
+<rect x="254" y="209" width="102" height="64" rx="8" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="0"/>
+<rect x="254" y="209" width="3" height="64" rx="2" fill="#f59e0b" opacity="0.8"/>
+<text x="262" y="225" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🩺</text>
+<circle cx="349" cy="220" r="4" fill="#f59e0b"/>
+<text x="276" y="225" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Trusă medical…</text>
+<text x="262" y="243" font-size="11" font-weight="700" fill="#f59e0b" font-family="-apple-system,sans-serif">22 zile</text>
+<text x="262" y="259" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">03 Apr 2025</text>
+<line x1="20" y1="287" x2="480" y2="287" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="34" y="309" font-size="9" font-weight="700" letter-spacing="1" fill="#64748b" font-family="-apple-system,sans-serif">🔧 SERVICE</text>
+<text x="466" y="309" font-size="10" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">▶</text>
+<rect x="34" y="322" width="102" height="64" rx="8" fill="rgba(239,68,68,0.14)" stroke="#ef4444" stroke-width="0"/>
+<rect x="34" y="322" width="3" height="64" rx="2" fill="#ef4444" opacity="0.8"/>
+<text x="42" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🛢️</text>
+<circle cx="129" cy="333" r="4" fill="#ef4444"/>
+<text x="56" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Schimb ulei</text>
+<text x="42" y="356" font-size="11" font-weight="700" fill="#ef4444" font-family="-apple-system,sans-serif">320 km</text>
+<text x="42" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 190 zile</text>
+<rect x="144" y="322" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="144" y="322" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="152" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">💨</text>
+<circle cx="239" cy="333" r="4" fill="#22c55e"/>
+<text x="166" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Filtru aer</text>
+<text x="152" y="356" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">12 800 km</text>
+<text x="152" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 380 zile</text>
+<rect x="254" y="322" width="102" height="64" rx="8" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="0"/>
+<rect x="254" y="322" width="3" height="64" rx="2" fill="#f59e0b" opacity="0.8"/>
+<text x="262" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🌿</text>
+<circle cx="349" cy="333" r="4" fill="#f59e0b"/>
+<text x="276" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Filtru hab.</text>
+<text x="262" y="356" font-size="11" font-weight="700" fill="#f59e0b" font-family="-apple-system,sans-serif">2 100 km</text>
+<text x="262" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 280 zile</text>
+<rect x="364" y="322" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="364" y="322" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="372" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">⚙️</text>
+<circle cx="459" cy="333" r="4" fill="#22c55e"/>
+<text x="386" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Curea distrib…</text>
+<text x="372" y="356" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">42 550 km</text>
+<text x="372" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 730 zile</text>
+<rect x="34" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="34" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="42" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔴</text>
+<circle cx="129" cy="405" r="4" fill="#22c55e"/>
+<text x="56" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Frâne</text>
+<text x="42" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">22 450 km</text>
+<text x="42" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 120 zile</text>
+<rect x="144" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="144" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="152" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔋</text>
+<circle cx="239" cy="405" r="4" fill="#22c55e"/>
+<text x="166" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Baterie</text>
+<text x="152" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">acum 420 zile</text>
+<text x="152" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">Nov 2023</text>
+<rect x="254" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="254" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="262" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔘</text>
+<circle cx="349" cy="405" r="4" fill="#22c55e"/>
+<text x="276" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Anvelope</text>
+<text x="262" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">acum 180 zile</text>
+<text x="262" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">Sep 2024</text>
+<rect x="364" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="364" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="372" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">❄️</text>
+<circle cx="459" cy="405" r="4" fill="#22c55e"/>
+<text x="386" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Climatizare</text>
+<text x="372" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">acum 340 zile</text>
+<text x="372" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">Apr 2024</text>
+<rect x="34" y="466" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="34" y="466" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="42" y="482" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔧</text>
+<circle cx="129" cy="477" r="4" fill="#22c55e"/>
+<text x="56" y="482" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Revizie gen.</text>
+<text x="42" y="500" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">7 550 km</text>
+<text x="42" y="516" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">acum 95 zile</text>
+<line x1="20" y1="544" x2="480" y2="544" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<rect x="34" y="552" width="432" height="44" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+<rect x="34" y="552" width="3" height="44" rx="2" fill="rgba(255,255,255,0.12)"/>
+<text x="44" y="567" font-size="9" font-weight="700" fill="#e2e8f0" font-family="-apple-system,sans-serif">📝 Notițe</text>
+<text x="44" y="581" font-size="9" fill="#94a3b8" font-family="-apple-system,sans-serif">Programare service luna viitoare.</text>
+  <rect x="504" y="20" width="460" height="591" rx="16" fill="#1e293b" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<rect x="504" y="20" width="460" height="82" rx="0" fill="url(#hdrGrad)" />
+<rect x="504" y="20" width="460" height="16" rx="0" fill="#1e293b"/>
+<rect x="504" y="20" width="460" height="82" rx="16" fill="none"/>
+<path d="M520,20 H948 Q964,20 964,36 V102 H504 V36 Q504,20 520,20" fill="#1e293b" opacity="0"/>
+<text x="522" y="54" font-size="26" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🚗</text>
+<text x="556" y="50" font-size="14" font-weight="700" fill="#f1f5f9" font-family="-apple-system,sans-serif">Volkswagen Golf 7</text>
+<text x="556" y="66" font-size="10" fill="#94a3b8" font-family="-apple-system,sans-serif">Volkswagen Golf 7 2017 · CJ-42-XYZ · 🇩🇪</text>
+<text x="522" y="88" font-size="10" fill="#94a3b8" font-family="-apple-system,sans-serif">📍 203 100 km</text>
+<rect x="852.0" y="36" width="96.0" height="18" rx="9" fill="rgba(245,158,11,0.18)"/>
+<text x="900.0" y="49" font-size="9.5" font-weight="700" fill="#fbbf24" text-anchor="middle" font-family="-apple-system,sans-serif">⏰ 2 warnings</text>
+<rect x="771.5" y="36" width="76.5" height="18" rx="9" fill="rgba(239,68,68,0.18)"/>
+<text x="809.75" y="49" font-size="9.5" font-weight="700" fill="#f87171" text-anchor="middle" font-family="-apple-system,sans-serif">⚠ 1 issue</text>
+<text x="954" y="33" font-size="8.5" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">🇩🇪 DE</text>
+<line x1="504" y1="102" x2="964" y2="102" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="518" y="124" font-size="9" font-weight="700" letter-spacing="1" fill="#64748b" font-family="-apple-system,sans-serif" text-transform="uppercase">📄 DOCUMENTS</text>
+<text x="950" y="124" font-size="10" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">▶</text>
+<rect x="518" y="137" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="518" y="137" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="526" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🛡️</text>
+<circle cx="613" cy="148" r="4" fill="#22c55e"/>
+<text x="540" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">KFZ-Haftpflic…</text>
+<text x="526" y="171" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">245 days</text>
+<text x="526" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">03 Nov 2025</text>
+<rect x="628" y="137" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="628" y="137" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="636" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔒</text>
+<circle cx="723" cy="148" r="4" fill="#22c55e"/>
+<text x="650" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Vollkasko</text>
+<text x="636" y="171" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">245 days</text>
+<text x="636" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">03 Nov 2025</text>
+<rect x="738" y="137" width="102" height="64" rx="8" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="0"/>
+<rect x="738" y="137" width="3" height="64" rx="2" fill="#f59e0b" opacity="0.8"/>
+<text x="746" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔍</text>
+<circle cx="833" cy="148" r="4" fill="#f59e0b"/>
+<text x="760" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">TÜV / HU</text>
+<text x="746" y="171" font-size="11" font-weight="700" fill="#f59e0b" font-family="-apple-system,sans-serif">14 days</text>
+<text x="746" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">26 Mar 2025</text>
+<rect x="848" y="137" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="848" y="137" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="856" y="153" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🏛️</text>
+<circle cx="943" cy="148" r="4" fill="#22c55e"/>
+<text x="870" y="153" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">KFZ-Steuer</text>
+<text x="856" y="171" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">190 days</text>
+<text x="856" y="187" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">19 Sep 2025</text>
+<rect x="518" y="209" width="102" height="64" rx="8" fill="rgba(220,38,38,0.16)" stroke="#dc2626" stroke-width="0"/>
+<rect x="518" y="209" width="3" height="64" rx="2" fill="#dc2626" opacity="0.8"/>
+<text x="526" y="225" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🧯</text>
+<circle cx="613" cy="220" r="4" fill="#dc2626"/>
+<text x="540" y="225" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Feuerlöscher</text>
+<text x="526" y="243" font-size="11" font-weight="700" fill="#dc2626" font-family="-apple-system,sans-serif">Expired</text>
+<text x="526" y="259" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">28 Feb 2025</text>
+<rect x="628" y="209" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="628" y="209" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="636" y="225" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🩺</text>
+<circle cx="723" cy="220" r="4" fill="#22c55e"/>
+<text x="650" y="225" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Verbandskaste…</text>
+<text x="636" y="243" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">310 days</text>
+<text x="636" y="259" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">16 Jan 2026</text>
+<line x1="504" y1="287" x2="964" y2="287" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="518" y="309" font-size="9" font-weight="700" letter-spacing="1" fill="#64748b" font-family="-apple-system,sans-serif">🔧 SERVICE</text>
+<text x="950" y="309" font-size="10" fill="#475569" text-anchor="end" font-family="-apple-system,sans-serif">▶</text>
+<rect x="518" y="322" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="518" y="322" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="526" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🛢️</text>
+<circle cx="613" cy="333" r="4" fill="#22c55e"/>
+<text x="540" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Ölwechsel</text>
+<text x="526" y="356" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">6 900 km</text>
+<text x="526" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">45 days ago</text>
+<rect x="628" y="322" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="628" y="322" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="636" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">💨</text>
+<circle cx="723" cy="333" r="4" fill="#22c55e"/>
+<text x="650" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Luftfilter</text>
+<text x="636" y="356" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">19 100 km</text>
+<text x="636" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">200 days ago</text>
+<rect x="738" y="322" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="738" y="322" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="746" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🌿</text>
+<circle cx="833" cy="333" r="4" fill="#22c55e"/>
+<text x="760" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Innenraumfilt…</text>
+<text x="746" y="356" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">10 100 km</text>
+<text x="746" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">300 days ago</text>
+<rect x="848" y="322" width="102" height="64" rx="8" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="0"/>
+<rect x="848" y="322" width="3" height="64" rx="2" fill="#f59e0b" opacity="0.8"/>
+<text x="856" y="338" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">⚙️</text>
+<circle cx="943" cy="333" r="4" fill="#f59e0b"/>
+<text x="870" y="338" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Zahnriemen</text>
+<text x="856" y="356" font-size="11" font-weight="700" fill="#f59e0b" font-family="-apple-system,sans-serif">1 900 km</text>
+<text x="856" y="372" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">1460 days ago</text>
+<rect x="518" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="518" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="526" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔴</text>
+<circle cx="613" cy="405" r="4" fill="#22c55e"/>
+<text x="540" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Bremsen</text>
+<text x="526" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">31 100 km</text>
+<text x="526" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">600 days ago</text>
+<rect x="628" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="628" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="636" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔋</text>
+<circle cx="723" cy="405" r="4" fill="#22c55e"/>
+<text x="650" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Batterie</text>
+<text x="636" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">610 days ago</text>
+<text x="636" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">May 2023</text>
+<rect x="738" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="738" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="746" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔘</text>
+<circle cx="833" cy="405" r="4" fill="#22c55e"/>
+<text x="760" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Reifen</text>
+<text x="746" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">30 days ago</text>
+<text x="746" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">Feb 2025</text>
+<rect x="848" y="394" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="848" y="394" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="856" y="410" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">❄️</text>
+<circle cx="943" cy="405" r="4" fill="#22c55e"/>
+<text x="870" y="410" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Klima-Service</text>
+<text x="856" y="428" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">730 days ago</text>
+<text x="856" y="444" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">Mar 2023</text>
+<rect x="518" y="466" width="102" height="64" rx="8" fill="rgba(34,197,94,0.12)" stroke="#22c55e" stroke-width="0"/>
+<rect x="518" y="466" width="3" height="64" rx="2" fill="#22c55e" opacity="0.8"/>
+<text x="526" y="482" font-size="11" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif">🔧</text>
+<circle cx="613" cy="477" r="4" fill="#22c55e"/>
+<text x="540" y="482" font-size="8.5" fill="#94a3b8" font-family="-apple-system,sans-serif">Inspektion</text>
+<text x="526" y="500" font-size="11" font-weight="700" fill="#22c55e" font-family="-apple-system,sans-serif">11 900 km</text>
+<text x="526" y="516" font-size="8" fill="#64748b" font-family="-apple-system,sans-serif">180 days ago</text>
+<line x1="504" y1="544" x2="964" y2="544" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<rect x="518" y="552" width="432" height="44" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+<rect x="518" y="552" width="3" height="44" rx="2" fill="rgba(255,255,255,0.12)"/>
+<text x="528" y="567" font-size="9" font-weight="700" fill="#e2e8f0" font-family="-apple-system,sans-serif">📝 Notes</text>
+<text x="528" y="581" font-size="9" fill="#94a3b8" font-family="-apple-system,sans-serif">TÜV Termin gebucht. Winterreifen noch drauf.</text>
+</svg>
