@@ -1,0 +1,22 @@
+{
+  "name": "Vehicle Manager",
+  "description": "Track vehicle documents, expiry dates and service intervals for multiple cars across 10 EU countries with 8 UI languages.",
+  "content_in_root": false,
+  "zip_release": false,
+  "filename": "vehicle_manager.zip",
+  "render_readme": true,
+  "homeassistant": "2023.6.0",
+  "iot_class": "local_push",
+  "country": [
+    "RO",
+    "DE",
+    "FR",
+    "IT",
+    "AT",
+    "ES",
+    "PL",
+    "NL",
+    "HU",
+    "CZ"
+  ]
+}
